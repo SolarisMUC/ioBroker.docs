@@ -14,13 +14,10 @@ Einleitung
 
 
 
-1. Erste Schritte
---------------------------------
+<b>1. Erste Schritte<b>
 
-2. Welche Dinge werden benötigt
---------------------------------
+<b>2. Welche Dinge werden benötigt<b>
 
 2.1 Der Github Account
---------------------------------
 2.1.1 Wie bekomme ich eine Kopie der Dokumentation in meinen Account
       und was zum Teufel ist ein Fork
