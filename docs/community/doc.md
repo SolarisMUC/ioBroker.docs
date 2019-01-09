@@ -98,7 +98,7 @@ Das heist die serverseitige Version bleibt davon unberührt, erst wenn du einen 
 Befehle zum speichern im "local" Repository in der GIT-Shell wären:
 > git commit
 
-> git commit -m <message>
+> git commit -m (message)
 
 > git commit -a
 
@@ -110,6 +110,18 @@ mit dem Befehl in der GIT-Konsole:
 > git remote -v
 
 Kannst du dir zum beispiel alle Aliases und deren URL auf die sie verweisen anzeigen lassen.
+
+<b>downstream</>
+
+Als "downstream" wird der Prozess clone, checkout, etc. bezeichnet, sprich wenn du ein Projekt von z.B. GitHub auf dein lokales System
+kopierst, benutzt du meist in der GIT-Shell:
+
+> git clone (URL des serverseitigen Repository) (Pfad zum lokalen Ordner deines Systems)
+
+Auch ein "checkout" ist so ein "downstream" allerdings setzt dies ein bestehendes "locales" Repository des Projektes voraus.
+Hierzu kannst du in der GIT-Shell folgende Befehle nutzen:
+
+> 
 
 <b>upstream</b>
 
