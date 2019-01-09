@@ -139,3 +139,19 @@ Hierzu kannst du in der GIT-Shell folgende Befehle nutzen:
 <b>upstream</b>
 
 
+So nach der trockenen Theorie kommen wir jetzt zur Einrichtung deiner Arbeitsumgebung auf deinem lokalen System.
+An dieser Stelle sollte jetzt folgende Software bei dir installiert sein:
+
+- GIT
+- TortoiseGit
+- Irgend ein Editor wie z.B. Word, oder aber auch eine IDE wie Visual Studio Code, Netbeans etc.
+
+<b>Step 1.</b>
+
+Erstelle in auf deinem FileSystem einen neuen Ordner: zb. GIT_ioBroker (siehe Bild unten)
+
+<b>Step 2.</b>
+
+
+
+
