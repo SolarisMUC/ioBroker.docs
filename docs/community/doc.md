@@ -29,6 +29,10 @@ damit zu starten.
 
 ### 2.1. Der Github Account
 
+In diesem Abschnitt wird dier erklärt wie du einen GitHub Account anlegst und nachfolgend einen "Fork"
+der ioBroker.docs in selbigen realisierst.
+
+
 #### 2.1.1 Wie erstelle ich einen neuen Account
 
 Sobald du die Github website aufgerufen bite rechts oben auf SignIn klicken und das sich öffnende Fenster einmal komplett
@@ -41,3 +45,34 @@ diesen bitte einmal anklicken. Danach ist deine E-Mail bestätigt und du kannst 
 
 #### 2.1.2 Wie bekomme ich eine Kopie der Dokumentation in meinen Account und was zum Teufel ist ein Fork
 
+Vorab eine kleine Erklärung zu den Begriffen die dir wärend der Arbeit mit GIT immer wieder begegnen werden:
+
+<b>Fork</b>
+
+Ein Fork ist quasi eine Kopie eines bestehenden Projektes. In diesem Fall des ioBroker.docs, also dem Dokumentationsprojektes. 
+Dies wird hauptsächlich aus den folgenden Gründen gemacht:           
+- Du möchtest etwas für dich ändern, aber nicht von vorne anfangen.                                    
+- Du möchtest etwas zu einem Projekt beisteuern 
+
+Dabei ist die grundsätzliche Idee, dass du ein paar Modifikationen an einem Projekt machen möchtest.   
+Das schöne dabei ist, dass du Änderungen die nach dem Fork am Ursprungsprojekt gemacht wurden in dein geändertes Projekt integrieren kann. In deinem Fork hast du allerdings die Kontrolle wann du was machen möchtest.         
+Wenn du zu einem bestehenden Projekt etwas beisteuern möchtest, dann erstellst du einen Fork eigentlich nur um diese Änderung zu machen und dann in das Ursprungsprojekt zurück zuführen.
+Wichtig ist, dass du die Zusammenhänge zwischen den Verzeichnissen <b>lokal</b>, <b>origin</b> und <b>upstream</b> verstehst.
+
+<b>Issue</b>
+
+Auf GitHub werden Issues für ziemlich viel benutzt. Es ist der Mechanismus um mit den Entwicklern eines Projektes in Kontakt zu treten. Dabei kannst du grundsätzlich ein Issue verwenden um:
+- eine Frage zu stellen
+- ein Problem zu berichten
+- einen Fehler zu berichten
+- ein ToDo anzulegen
+
+Du solltest allerdings bedenken, dass ein Issue immer Arbeit für die Entwickler/Dokumentatoren bedeutet. 
+Im Fall des ioBroker.docs Projektes werden Issues meist für das Erstellen von Dokumentationsaufgaben verwendet
+
+
+<b>Pull Request</b>
+
+Öffentliche Projekte auf GitHub sind üblicherweise so aufgebaut, dass es einen oder ein Team von Entwicklern gibt und diese können Änderung an dem Projekt vornehmen. Um nun aber der gesamten Community die Möglichkeit zu geben einen Beitrag zu machen, wurden Pull Requests eingeführt.
+
+Dabei handelt es sich letztlich nur um eine Mail, in der jemand aus der Community darum bittet seine Änderungen in das vom Entwickler gepflegte Git-Verzeichnis zu integrieren. Über diesen "Umweg" wird sichergestellt, dass der verantwortliche Entwickler bzw. das Team die letzte Entscheidung über Änderungen hat.
