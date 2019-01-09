@@ -85,7 +85,22 @@ Wir empfehlen dir z.B. für jeden Dokumentationsteil den die bearbeitest in dein
 und nur in diesem an der dazugehörigen Dokumentation zu arbeiten. Sobald du die Dokumentation finalisiert hast, kannst du den "Branch" wieder dem "master" über den "Merge" Befehl zuführen.
 So wird sichergestellt das der "master" immer ein lauffähiges Extrakt bereitstellen kann.
 
-<b>lokal</b>
+<b>local</b>
+
+Als "local" wird deine lokale, auf deinem Computer vorhandene Arbeitskopie des GIT-Projektes bezeichnet. Dabei gilt zu verstehen,
+wie GIT funktioniert:
+- GIT ist ein 2-Wege-System, es gibt eine serverseitige Version des Projektes (z.B. auf GitHub) und eine clientseitige Version auf deinem lokalen System.
+
+Wenn du auf deinem System arbeitest, so werden alle Änderungen zu allererst "local" also an der clientseitigen Version deines Projektes
+gemacht, diese Änderungen "commitest" du zu allererst in die "local" Version.
+Das heist die serverseitige Version bleibt davon unberührt, erst wenn du einen sogenannten <b>"push to upstream"</b> machst werden diese Änderungen auf die serverseitige Version geschrieben.
+
+Befehle zum speichern im "local" Repository in der GIT-Shell wären:
+> git commit
+
+> git commit -m <message>
+
+> git commit -a
 
 
 <b>origin</b>
