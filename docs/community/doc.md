@@ -17,11 +17,15 @@ Dann findest du in den folgenden Abschnitten alles nötige um relativ schnell un
 damit zu starten.
 
 
-<b>1. Erste Schritte</b>
-------------------------
-<b>2. Welche Dinge werden benötigt</b>
---------------------------------------
-<b>2.1. Der Github Account</b>
-------------------------------
-<b>2.1.1 Wie bekomme ich eine Kopie der Dokumentation in meinen Account und was zum Teufel ist ein Fork</b>
------------------------------------------------------------------------------------------------------------
+### 1. Erste Schritte
+
+- Melde dich im ioBroker Forum unter folgendem Thema: [Dokumentationshilfe](https://forum.iobroker.net/viewtopic.php?f=8&t=16933&p=216031#p216031 "Anmelden als DokumentsMan") 
+
+### 2. Welche Dinge werden benötigt
+
+- Github Account, zu finden hier. Du hast noch keinen'?
+
+### 2.1. Der Github Account
+
+### 2.1.1 Wie bekomme ich eine Kopie der Dokumentation in meinen Account und was zum Teufel ist ein Fork
+
