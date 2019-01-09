@@ -76,3 +76,26 @@ Im Fall des ioBroker.docs Projektes werden Issues meist für das Erstellen von D
 Öffentliche Projekte auf GitHub sind üblicherweise so aufgebaut, dass es einen oder ein Team von Entwicklern gibt und diese können Änderung an dem Projekt vornehmen. Um nun aber der gesamten Community die Möglichkeit zu geben einen Beitrag zu machen, wurden Pull Requests eingeführt.
 
 Dabei handelt es sich letztlich nur um eine Mail, in der jemand aus der Community darum bittet seine Änderungen in das vom Entwickler gepflegte Git-Verzeichnis zu integrieren. Über diesen "Umweg" wird sichergestellt, dass der verantwortliche Entwickler bzw. das Team die letzte Entscheidung über Änderungen hat.
+
+<b>Branches</b>
+
+Bei Branches handelt es sich grob gesprochen um eine Arbeitskopie des "master", welche erzeugt wird um in unserem Fall, z.b. an einer bestimmten Dokumentation zu arbeiten ohne die Hauptlinie den "master" eines Projektes zu verändern.
+
+Wir empfehlen dir z.B. für jeden Dokumentationsteil den die bearbeitest in deinem Projekt einen eigenen "Branch" zu erstellen, 
+und nur in diesem an der dazugehörigen Dokumentation zu arbeiten. Sobald du die Dokumentation finalisiert hast, kannst du den "Branch" wieder dem "master" über den "Merge" Befehl zuführen.
+So wird sichergestellt das der "master" immer ein lauffähiges Extrakt bereitstellen kann.
+
+<b>lokal</b>
+
+
+<b>origin</b>
+
+Als "origin" wird das Remote-Repository (z.b. auf GitHub ) deines Projektes bezeichnet, wobei "origin" hierbei einen Alias darstellt welcher auf die URL des Repositories zeigt.
+mit dem Befehl in der GIT-Konsole:
+> git remote -v
+
+Kannst du dir zum beispiel alle Aliases und deren URL auf die sie verweisen anzeigen lassen.
+
+<b>upstream</b>
+
+
