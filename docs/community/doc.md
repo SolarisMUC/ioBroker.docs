@@ -96,32 +96,45 @@ gemacht, diese Änderungen "commitest" du zu allererst in die "local" Version.
 Das heist die serverseitige Version bleibt davon unberührt, erst wenn du einen sogenannten <b>"push to upstream"</b> machst werden diese Änderungen auf die serverseitige Version geschrieben.
 
 Befehle zum speichern im "local" Repository in der GIT-Shell wären:
-> git commit
+> <em>git commit
 
-> git commit -m (message)
+> <em> git commit -m (message)
 
-> git commit -a
+> <em> git commit -a
 
 
 <b>origin</b>
 
 Als "origin" wird das Remote-Repository (z.b. auf GitHub ) deines Projektes bezeichnet, wobei "origin" hierbei einen Alias darstellt welcher auf die URL des Repositories zeigt.
 mit dem Befehl in der GIT-Konsole:
-> git remote -v
+> <em>git remote -v
 
 Kannst du dir zum beispiel alle Aliases und deren URL auf die sie verweisen anzeigen lassen.
 
-<b>downstream</>
+<b>downstream</b>
 
 Als "downstream" wird der Prozess clone, checkout, etc. bezeichnet, sprich wenn du ein Projekt von z.B. GitHub auf dein lokales System
 kopierst, benutzt du meist in der GIT-Shell:
 
-> git clone (URL des serverseitigen Repository) (Pfad zum lokalen Ordner deines Systems)
+> <em>git clone (URL des serverseitigen Repository) (Pfad zum lokalen Ordner deines Systems)
 
 Auch ein "checkout" ist so ein "downstream" allerdings setzt dies ein bestehendes "locales" Repository des Projektes voraus.
 Hierzu kannst du in der GIT-Shell folgende Befehle nutzen:
 
-> 
+> <em>git checkout</em> [-q] [-f] [-m] [&lt;branch&gt;]
+
+> <em>git checkout</em> [-q] [-f] [-m] --detach [&lt;branch&gt;]
+
+> <em>git checkout</em> [-q] [-f] [-m] [--detach] &lt;commit&gt;
+
+> <em>git checkout</em> [-q] [-f] [-m] [[-b|-B|--orphan] &lt;new_branch&gt;] [&lt;start_point&gt;]
+
+> <em>git checkout</em> [-f|--ours|--theirs|-m|--conflict=&lt;style&gt;] [&lt;tree-ish&gt;] [--] &lt;paths&gt;&#8230;&#8203;
+
+> <em>git checkout</em> [&lt;tree-ish&gt;] [--] &lt;pathspec&gt;&#8230;&#8203;
+
+> <em>git checkout</em> (-p|--patch) [&lt;tree-ish&gt;] [--] [&lt;paths&gt;&#8230;&#8203;]
+
 
 <b>upstream</b>
 
