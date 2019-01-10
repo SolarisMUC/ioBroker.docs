@@ -175,3 +175,36 @@ Erstelle in auf deinem FileSystem einen neuen Ordner: zb. GIT_ioBroker (siehe Bi
 
 ![](media/CreateGitRepo005.PNG)
 *Abb. 03*
+
+<b>Step 3.</b>
+
+- Nachdem du jetzt eine lokale Arbeitskopie besitzt, welche im optimalen Fall ungefähr der Abb. 04 entspricht,
+  kannst du jetzt anfangen an der Dokumentation mit Hilfe deines bevorzugten Editors zu arbeiten.
+
+![](media/CreateGitRepo006.PNG)
+*Abb. 04*
+
+- Sobald du eine Dokumentation fertig gestellt hast, musst du diese per "Commit" und "Push" wieder deinem Repository auf GitHub
+  zuführen. Um dies zu bewerkstelligen kannst du mittels Rechtsklick auf den von dir lokal erstellten Ordner den "Commit" Befehl 
+  ganz einfach auswählen und ausführen (siehe Abb. 05). Dieser Befehl schreibt die Änderungen an deiner Dokumentation jetzt in die 
+  lokale Kopie deines Git-Repositorys, auf deiner Festplatte.
+
+![](media/CreateGitRepo007.PNG)
+*Abb. 05*
+
+- Wenn dies ohne Fehler geklappt hat, wiederholst du den Schritt, wählst allerdings im Kontextmenü "Push" aus (siehe Abb. 06),
+  jetzt überträgt GIT deine lokalen Änderungen in den serverseitigen "Branch" deines Repository auf GitHub. 
+  Das wärs dann auch schon fürs erste.
+  Wie deine Dokumentation jetzt in das ioBroker.docs Repository kommt erfährst du im nächsten Abschnitt.
+
+![](media/CreateGitRepo008.PNG)
+*Abb. 06*
+
+### 3. Wie kommt meine erarbeitet Dokumentation jetzt in das Hauptprojekt ?
+
+
+
+
+
+
+ 
