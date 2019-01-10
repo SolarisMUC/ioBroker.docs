@@ -158,9 +158,17 @@ Erstelle in auf deinem FileSystem einen neuen Ordner: zb. GIT_ioBroker (siehe Bi
 
 ![](media/CreateGitRepo002.PNG)
 
-- in dem sich jetzt öffnenden Fenster unter "URL" den weblink zu deinem Git-Repository reinschreiben/Kopieren (siehe Abb. 01).
-- diesen findest du wenn du in deinem Github-Account das von dir erstellte Repository anklickst, auf der rechten Seite (siehe Abb. 02).
+- in dem sich jetzt öffnenden Fenster unter "URL" den weblink zu deinem Git-Repository reinschreiben/Kopieren 
+  (siehe Abb. 01).
+- diesen findest du wenn du in deinem Github-Account das von dir erstellte Repository anklickst, auf der rechten Seite 
+  (siehe Abb. 02).
 ![](media/CreateGitRepo003.PNG)
+*Abb. 01*
+
 ![](media/CreateGitRepo004.PNG)
-
-
+*Abb. 02*
+- nachdem du die Eingaben bestätigt hast beginnt der "Clone" - Vorgang des Repository in den Ordner, 
+  welchen du auf deinem lokalen System angegeben hast (siehe Abb. 03). Dies kann je nach Grösse des Repository und der Geschwindigkeit
+  deiner Internetleitung eine bestimmte Zeit dauern. Hol dir am besten eine Kaffee ;)
+![](media/CreateGitRepo005.PNG)
+*Abb. 03*
