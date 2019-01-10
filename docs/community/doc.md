@@ -1,4 +1,4 @@
----
+﻿---
 title:       "Entwicklung - Dokumentation"
 lastChanged: "08.01.2019"
 editLink:    "https://github.com/ioBroker/ioBroker.docs/edit/master/docs/community/doc.md"
@@ -150,8 +150,17 @@ An dieser Stelle sollte jetzt folgende Software bei dir installiert sein:
 
 Erstelle in auf deinem FileSystem einen neuen Ordner: zb. GIT_ioBroker (siehe Bild unten)
 
+![](media/CreateGitRepo001.PNG)
+
 <b>Step 2.</b>
 
+- Rechtsklick auf den von dir erstellten Ordner, im erscheinenden Kontextmenü den Punkt "Git Clone" auswählen
 
+![](media/CreateGitRepo002.PNG)
+
+- in dem sich jetzt öffnenden Fenster unter "URL" den weblink zu deinem Git-Repository reinschreiben/Kopieren (siehe Abb. 01).
+- diesen findest du wenn du in deinem Github-Account das von dir erstellte Repository anklickst, auf der rechten Seite (siehe Abb. 02).
+![](media/CreateGitRepo003.PNG)
+![](media/CreateGitRepo004.PNG)
 
 
