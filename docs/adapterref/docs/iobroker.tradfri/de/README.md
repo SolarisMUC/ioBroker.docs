@@ -84,7 +84,10 @@ zwischen ioBroker, Gateway und Komponenten.
 
 - <b>Adapterkonfiguration</b>
      - Über der Button ![Konfigurieren](media/konfiguration.PNG) zum Interface der "Adapterkonfiguration" wechseln. 
-       Diese sollte in etwa der Abbildung (siehe unterhalb) entsprechen. Momentan beinhaltet diese zwei Tab-Reiter
+       Diese sollte in etwa der Abbildung (siehe unterhalb) entsprechen. 
+       ![Start Instanz](media/TrfAdpConf_001.PNG)
+
+       Momentan beinhaltet diese zwei Tab-Reiter
        - <b>Einstellungen</b>
             - Unter Einstellungen befinden sich folgende Konfigurationsmöglichkeiten:
 	      - <b>Gateway IP/Hostname</b> - Hostname ist "GW-", gefolgt von der MAC-Adresse ohne Sonderzeichen
