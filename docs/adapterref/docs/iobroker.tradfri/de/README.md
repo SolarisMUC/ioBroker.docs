@@ -53,7 +53,7 @@ zwischen ioBroker, Gateway und Komponenten.
 
 ### Installation des Adapters und Konfiguration der Instanz
 
-<b>Schritt 1.</b>
+<b>Schritt 1. Adapter installieren und Instanz erzeugen </b>
 
 - Installieren des Adapters durch klicken auf ![Adapter](media/Adapter.PNG) in der linken Navigationsleiste des Webinterface
 - in der nun erscheinenden Seite, in der Suche nach "Ikea Tradfri" suchen/filtern (siehe Abb. 01)
@@ -63,7 +63,7 @@ zwischen ioBroker, Gateway und Komponenten.
 
 ![Ikea Tradfri Adapter hinzufügen](media/TradfriAdapterInstanz_002.PNG)
 
-<b>Schritt 2.</b>
+<b>Schritt 2. Übersicht der erzeugten Instanz und Konfiguration</b>
 
 - Durch wechseln der Ansicht in der linken Navigationsleiste ![Instanzen](media/instanzen.PNG) werden die aktuell vorhandenen
   Instanzen angezeigt. Nach setzen des Filters auf "Tradfri" werden alle laufenden "Tradfri" Instanzen angezeigt. 
@@ -81,6 +81,25 @@ zwischen ioBroker, Gateway und Komponenten.
     - ![Start Instanz](media/konfiguration.PNG) Zugriff auf den Konfigurationsbereich der Instanz
     - ![Start Instanz](media/reload.PNG) Instanz wird neu gestartet 
     - ![Start Instanz](media/delete.PNG) Instanz wird unwiederruflich gelöscht
+
+- <b>Adapterkonfiguration</b>
+     - Über der Button ![Konfigurieren](media/konfiguration.PNG) zum Interface der "Adapterkonfiguration" wechseln. 
+       Diese sollte in etwa der Abbildung (siehe unterhalb) entsprechen. Momentan beinhaltet diese zwei Tab-Reiter
+       - <b>Einstellungen</b>
+            - Unter Einstellungen befinden sich folgende Konfigurationsmöglichkeiten:
+	      - <b>Gateway IP/Hostname</b> - Hostname ist "GW-", gefolgt von der MAC-Adresse ohne Sonderzeichen
+                diese Information befindet sich auch auf der Rückseite des Tradfri Gateway selbst.
+                (siehe Abb. Tradfri-Gateway Rückseite)
+              - <b>Security-Code</b> - In deses Input Feld bite den Security-Code eintragen, 
+                dieser befindet sich auf der Rückseite des Tradfri-Gateway (siehe Abb. Tradfri-Gateway Rückseite)
+              - <b>Checkbox: "Übergangsdauer beibehalten"</b> - Standartmässig überschreibt der Gateway die Übergangsdauer jedes Mal 
+                mit dem Standartwert 0,5 Sekunden. Wenn diese Checkbox aktiviert wurde, wird dieses Verhalten verhindert. 
+              - <b>Nachkommastellen</b> - Das das Tradfri-Protokoll hat teilweise sehr eigenartige Schrittweiten für Zahlen, 
+                   dieses Verhalten wird durch Runden auf die angegebenen Nachkommastellen hier verhindert.
+       - <b>Virtuelle Gruppen</b>
+	      - Zu allererst: Was sind Virtuelle Gruppen? Virtuelle Gruppen sind Gruppen in denen mehrere IoT-Geräte,
+                aus dem Tradfri Sortiment unter einer Gruppe z.B. "Wohnzimmer" zusammengefasst werden können.
+
 
 
 
